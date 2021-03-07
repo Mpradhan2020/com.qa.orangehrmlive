@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.orangehrmliveUtilities.TestNGListner"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.orangehrmliveTestscript.TestHRMAppTC_13">
+        <methods>
+          <include name="xpathMenus"/>
+          <include name="loadPages"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.orangehrmliveTestscript.TestHRMAppTC_13 -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

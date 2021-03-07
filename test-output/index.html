@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Automation_Landing_Page">
+              <span class="suite-name border-passed">Test Automation Landing Page</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Automation_Landing_Page">
+                    <span>C:\Users\pradhanm\eclipse-workspace\com.qa.orangehrmlive\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Automation_Landing_Page">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Automation_Landing_Page">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Automation_Landing_Page">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Automation_Landing_Page">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Automation_Landing_Page">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Automation_Landing_Page">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Automation_Landing_Page" class="hide-methods passed suite-Test_Automation_Landing_Page"> (hide)</a> <!-- hide-methods passed suite-Test_Automation_Landing_Page -->
+                      <a href="#" panel-name="suite-Test_Automation_Landing_Page" class="show-methods passed suite-Test_Automation_Landing_Page"> (show)</a> <!-- show-methods passed suite-Test_Automation_Landing_Page -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Automation_Landing_Page">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC" hash-for-method="clickAdminLinkandVerifyMenues">clickAdminLinkandVerifyMenues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC" hash-for-method="clickAdminandVerifyTitle">clickAdminandVerifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC" hash-for-method="clickPIM_SearchEmp">clickPIM_SearchEmp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC" hash-for-method="cssMenus_Dashboard3Obj">cssMenus_Dashboard3Obj</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMAppLoginTC" hash-for-method="listofImages">listofImages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMAppLoginTC" hash-for-method="listofLinks">listofLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMAppLoginTC" hash-for-method="listofTextBox">listofTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC" hash-for-method="readDashboard">readDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMAppLoginTC" hash-for-method="verifyAppTitle">verifyAppTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC" hash-for-method="verifyinDashboard">verifyinDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Landing_Page" title="com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC" hash-for-method="xpathMenus">xpathMenus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Automation_Landing_Page -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Automation_Landing_Page" class="panel Test_Automation_Landing_Page">
+          <div class="suite-Test_Automation_Landing_Page-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAdminLinkandVerifyMenues">
+                  </a> <!-- clickAdminLinkandVerifyMenues -->
+                  <span class="method-name">clickAdminLinkandVerifyMenues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAdminandVerifyTitle">
+                  </a> <!-- clickAdminandVerifyTitle -->
+                  <span class="method-name">clickAdminandVerifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPIM_SearchEmp">
+                  </a> <!-- clickPIM_SearchEmp -->
+                  <span class="method-name">clickPIM_SearchEmp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cssMenus_Dashboard3Obj">
+                  </a> <!-- cssMenus_Dashboard3Obj -->
+                  <span class="method-name">cssMenus_Dashboard3Obj</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readDashboard">
+                  </a> <!-- readDashboard -->
+                  <span class="method-name">readDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyinDashboard">
+                  </a> <!-- verifyinDashboard -->
+                  <span class="method-name">verifyinDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xpathMenus">
+                  </a> <!-- xpathMenus -->
+                  <span class="method-name">xpathMenus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Landing_Page-class-passed -->
+          <div class="suite-Test_Automation_Landing_Page-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.orangehrmliveTestscript.TestHRMAppLoginTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="listofImages">
+                  </a> <!-- listofImages -->
+                  <span class="method-name">listofImages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listofLinks">
+                  </a> <!-- listofLinks -->
+                  <span class="method-name">listofLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listofTextBox">
+                  </a> <!-- listofTextBox -->
+                  <span class="method-name">listofTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppTitle">
+                  </a> <!-- verifyAppTitle -->
+                  <span class="method-name">verifyAppTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Landing_Page-class-passed -->
+        </div> <!-- panel Test_Automation_Landing_Page -->
+        <div panel-name="test-xml-Test_Automation_Landing_Page" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pradhanm\eclipse-workspace\com.qa.orangehrmlive\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Test Automation Landing Page&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.orangehrmliveUtilities.TestNGListner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestOrangeHRMLiveApp LoginPg&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.orangehrmliveTestscript.TestHRMAppLoginTC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestOrangeHRMLiveApp LoginPg --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestOrangeHRMLiveApp LandingPg&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestOrangeHRMLiveApp LandingPg --&gt;
+&lt;/suite&gt; &lt;!-- Test Automation Landing Page --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Automation_Landing_Page" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Automation Landing Page</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestOrangeHRMLiveApp LoginPg (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestOrangeHRMLiveApp LandingPg (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Automation_Landing_Page" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Automation Landing Page</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Automation_Landing_Page" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Automation Landing Page</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Automation_Landing_Page');
+function tableData_Test_Automation_Landing_Page() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickAdminandVerifyTitle')
+data.setCell(0, 2, 'com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC')
+data.setCell(0, 3, 15599);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'xpathMenus')
+data.setCell(1, 2, 'com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC')
+data.setCell(1, 3, 10367);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'cssMenus_Dashboard3Obj')
+data.setCell(2, 2, 'com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC')
+data.setCell(2, 3, 9369);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyinDashboard')
+data.setCell(3, 2, 'com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC')
+data.setCell(3, 3, 8476);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickAdminLinkandVerifyMenues')
+data.setCell(4, 2, 'com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC')
+data.setCell(4, 3, 2904);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickPIM_SearchEmp')
+data.setCell(5, 2, 'com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC')
+data.setCell(5, 3, 2383);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'readDashboard')
+data.setCell(6, 2, 'com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC')
+data.setCell(6, 3, 1018);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'listofTextBox')
+data.setCell(7, 2, 'com.qa.orangehrmliveTestscript.TestHRMAppLoginTC')
+data.setCell(7, 3, 112);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'listofImages')
+data.setCell(8, 2, 'com.qa.orangehrmliveTestscript.TestHRMAppLoginTC')
+data.setCell(8, 3, 45);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'listofLinks')
+data.setCell(9, 2, 'com.qa.orangehrmliveTestscript.TestHRMAppLoginTC')
+data.setCell(9, 3, 37);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyAppTitle')
+data.setCell(10, 2, 'com.qa.orangehrmliveTestscript.TestHRMAppLoginTC')
+data.setCell(10, 3, 18);
+window.suiteTableData['Test_Automation_Landing_Page']= { tableData: data, tableDiv: 'times-div-Test_Automation_Landing_Page'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <div id="times-div-Test_Automation_Landing_Page">
+              </div> <!-- times-div-Test_Automation_Landing_Page -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Automation_Landing_Page" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Automation Landing Page</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Automation_Landing_Page" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Automation_Landing_Page" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.orangehrmliveTestscript.TestHRMAppLoginTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">13645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAppTitle</span>
+                <span class="method-start">13711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">16013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listofTextBox</span>
+                <span class="method-start">16016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">16705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listofLinks</span>
+                <span class="method-start">16708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">17480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listofImages</span>
+                <span class="method-start">17483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18138 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">19292 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">29894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyinDashboard</span>
+                <span class="method-start">29896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">38931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickAdminLinkandVerifyMenues</span>
+                <span class="method-start">38933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">42393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickAdminandVerifyTitle</span>
+                <span class="method-start">42393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">58623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readDashboard</span>
+                <span class="method-start">58625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">60298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickPIM_SearchEmp</span>
+                <span class="method-start">60299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">63421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cssMenus_Dashboard3Obj</span>
+                <span class="method-start">63422 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">73448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">xpathMenus</span>
+                <span class="method-start">73449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84519 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

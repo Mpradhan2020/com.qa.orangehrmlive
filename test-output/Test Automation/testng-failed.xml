@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation]">
+  <test thread-count="5" name="TestOrangeHRMLiveApp(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.orangehrmliveTestscript.TestHRMApplication">
+        <methods>
+          <include name="clickAdminLinkandVerifyMenues"/>
+          <include name="tearDown"/>
+          <include name="loadPages"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.orangehrmliveTestscript.TestHRMApplication -->
+    </classes>
+  </test> <!-- TestOrangeHRMLiveApp(failed) -->
+</suite> <!-- Failed suite [Test Automation] -->

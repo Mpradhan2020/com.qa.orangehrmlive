@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Automation Landing Page" duration-ms="85315" started-at="2021-03-07T02:01:48Z" finished-at="2021-03-07T02:03:13Z">
+    <groups>
+    </groups>
+    <test name="TestOrangeHRMLiveApp LoginPg" duration-ms="19036" started-at="2021-03-07T02:01:48Z" finished-at="2021-03-07T02:02:07Z">
+      <class name="com.qa.orangehrmliveTestscript.TestHRMAppLoginTC">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="setUp" is-config="true" duration-ms="13638" started-at="2021-03-07T02:01:48Z" finished-at="2021-03-07T02:02:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="loadPages" is-config="true" duration-ms="66" started-at="2021-03-07T02:02:02Z" finished-at="2021-03-07T02:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="verifyAppTitle()[pri:1, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="verifyAppTitle" duration-ms="18" started-at="2021-03-07T02:02:02Z" finished-at="2021-03-07T02:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppTitle -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="loadPages" is-config="true" duration-ms="3" started-at="2021-03-07T02:02:04Z" finished-at="2021-03-07T02:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="listofTextBox()[pri:2, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="listofTextBox" duration-ms="112" started-at="2021-03-07T02:02:04Z" finished-at="2021-03-07T02:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listofTextBox -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="loadPages" is-config="true" duration-ms="3" started-at="2021-03-07T02:02:05Z" finished-at="2021-03-07T02:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="listofLinks()[pri:3, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="listofLinks" duration-ms="37" started-at="2021-03-07T02:02:05Z" finished-at="2021-03-07T02:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listofLinks -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="loadPages" is-config="true" duration-ms="3" started-at="2021-03-07T02:02:05Z" finished-at="2021-03-07T02:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="listofImages()[pri:4, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="listofImages" duration-ms="45" started-at="2021-03-07T02:02:05Z" finished-at="2021-03-07T02:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listofImages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMAppLoginTC@5c5a1b69]" name="tearDown" is-config="true" duration-ms="884" started-at="2021-03-07T02:02:06Z" finished-at="2021-03-07T02:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrmliveTestscript.TestHRMAppLoginTC -->
+    </test> <!-- TestOrangeHRMLiveApp LoginPg -->
+    <test name="TestOrangeHRMLiveApp LandingPg" duration-ms="66012" started-at="2021-03-07T02:02:07Z" finished-at="2021-03-07T02:03:13Z">
+      <class name="com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="setUp" is-config="true" duration-ms="10602" started-at="2021-03-07T02:02:07Z" finished-at="2021-03-07T02:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="loadPages" is-config="true" duration-ms="2" started-at="2021-03-07T02:02:18Z" finished-at="2021-03-07T02:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="verifyinDashboard()[pri:1, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="verifyinDashboard" duration-ms="8476" started-at="2021-03-07T02:02:18Z" finished-at="2021-03-07T02:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyinDashboard -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="loadPages" is-config="true" duration-ms="2" started-at="2021-03-07T02:02:27Z" finished-at="2021-03-07T02:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="clickAdminLinkandVerifyMenues()[pri:2, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="clickAdminLinkandVerifyMenues" duration-ms="2904" started-at="2021-03-07T02:02:27Z" finished-at="2021-03-07T02:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAdminLinkandVerifyMenues -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="loadPages" is-config="true" duration-ms="0" started-at="2021-03-07T02:02:30Z" finished-at="2021-03-07T02:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="clickAdminandVerifyTitle()[pri:3, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="clickAdminandVerifyTitle" duration-ms="15599" started-at="2021-03-07T02:02:30Z" finished-at="2021-03-07T02:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAdminandVerifyTitle -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="loadPages" is-config="true" duration-ms="2" started-at="2021-03-07T02:02:47Z" finished-at="2021-03-07T02:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="readDashboard()[pri:4, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="readDashboard" duration-ms="1018" started-at="2021-03-07T02:02:47Z" finished-at="2021-03-07T02:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDashboard -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="loadPages" is-config="true" duration-ms="1" started-at="2021-03-07T02:02:48Z" finished-at="2021-03-07T02:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="clickPIM_SearchEmp()[pri:5, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="clickPIM_SearchEmp" duration-ms="2383" started-at="2021-03-07T02:02:48Z" finished-at="2021-03-07T02:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPIM_SearchEmp -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="loadPages" is-config="true" duration-ms="1" started-at="2021-03-07T02:02:51Z" finished-at="2021-03-07T02:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="cssMenus_Dashboard3Obj()[pri:6, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="cssMenus_Dashboard3Obj" duration-ms="9369" started-at="2021-03-07T02:02:51Z" finished-at="2021-03-07T02:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cssMenus_Dashboard3Obj -->
+        <test-method status="PASS" signature="loadPages()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="loadPages" is-config="true" duration-ms="1" started-at="2021-03-07T02:03:01Z" finished-at="2021-03-07T02:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method status="PASS" signature="xpathMenus()[pri:7, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="xpathMenus" duration-ms="10367" started-at="2021-03-07T02:03:01Z" finished-at="2021-03-07T02:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xpathMenus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC@1e6d1014]" name="tearDown" is-config="true" duration-ms="782" started-at="2021-03-07T02:03:12Z" finished-at="2021-03-07T02:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrmliveTestscript.TestHRMApplicationLandingTC -->
+    </test> <!-- TestOrangeHRMLiveApp LandingPg -->
+  </suite> <!-- Test Automation Landing Page -->
+</testng-results>
