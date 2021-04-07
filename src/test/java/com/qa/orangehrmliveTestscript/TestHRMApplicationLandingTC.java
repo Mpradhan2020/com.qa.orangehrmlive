@@ -71,6 +71,7 @@ public class TestHRMApplicationLandingTC extends TestBase {
 		System.out.println("clickAdminLinkandVerifyMenues");
 
 	}
+	
 
 	// Verify page title for different menus- in order(Admin, PIM, Leave Dashboard,
 	// Directory and Maintenance)

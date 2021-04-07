@@ -15,6 +15,7 @@ import com.qa.orangehrmliveTestscript.TestBase;
 public class Orangehrmlive_Pages extends TestBase {
 
 	WebDriver Driver;
+	
 
 	@FindBy(xpath = "/html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[2]/input")
 	@CacheLookup

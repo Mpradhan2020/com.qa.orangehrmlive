@@ -24,6 +24,7 @@ import com.assertthat.selenium_shutterbug.core.Shutterbug;
 public class TestBase {
 //pre-requesites recorded here
 //	
+	
 //	1. initializing & initiating the browse
 //	2. open the url
 //	3. maximize the window
