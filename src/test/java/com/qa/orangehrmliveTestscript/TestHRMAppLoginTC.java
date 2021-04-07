@@ -29,7 +29,6 @@ public class TestHRMAppLoginTC extends TestBase {
 			System.out.println("verifyAppTitle");
 		}
 		
-
 		// All Text box’s
 		@Test(priority = 2)
 		public void listofTextBox() {
